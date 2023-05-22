@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Written by Max Ghislain Tuesday, August 2, 2020 -->
+
+<html xml:lang = "en" lang = "en"
+xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+	<title>Unit-11: Positioning</title>
+	<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<style type="text/css">
+		img{
+			position: absolute;
+		}
+		#img1{
+			left: 0px;
+			top: 50px;
+		}
+		#img2{
+			left: 100px;
+			top: 150px;
+		}
+		#img3{
+			left: 200px;
+			top: 250px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="index.html">Fixed Positioning and Z Indexing</a></li>
+		<li><a href="relative.html">Relative Positioning</a></li>
+		<li class="active"><a href="absolute.html">Absolute Positioning</a></li>
+	</ul>
+	<h1 class="right fixed" style="text-align: right;">If you inspect the css code,<br> you can see that these are positioned absolutely</h1>
+	<img src="images/image2.png" id="img1">
+	<img src="images/image2.png" id="img2">
+	<img src="images/image2.png" id="img3">
+
+</body>
+</html>

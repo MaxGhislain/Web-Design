@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{
+	font-family: italic, "Lato", sans-serif, arial;
+	background-color: #2e3141;
+}
+h1{
+	font-family: Raleway, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+}
+.header{
+	border-bottom: solid 2px rgba(255,255,255,0.125);
+	text-align: center;
+}
+
+p, a{
+	font-family:"Lato", sans-serif;
+	}
+h1, span, p, li{
+	color: white;
+}
+footer{
+	border-top: solid 2px rgba(255, 255, 255, 0.125);
+	text-align: left;
+}
+
+/* Turn off parallax for mobile */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+.listDiv{
+	display: block;
+	height, line-height: 30px;
+	padding: 4px 6px;
+	margin-bottom: 13px;
+	clear: both;
+}
+.listDiv .left{
+	float: left;
+}
+.listDiv .right{
+	float: right;
+}
+article{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+footer{
+	text-align: center;
+	padding: 20px;
+}
+.center{
+	margin: auto;
+  	width: 50%;
+}

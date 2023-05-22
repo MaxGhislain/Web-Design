@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1 {
+	color: #FFFFFF;
+	background-color: #626262;
+	font-size: 30px;
+	padding: 40px;
+}
+
+p {
+	color: #333;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+ul {
+	line-height: 20px;
+	font-size: 15px;
+}
+
+li {
+	color: #94595A;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- Written by Max Ghislain Tuesday, July 31, 2020 -->
+
+<html xml:lang = "en" lang = "en"
+xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+	<title>Home Page</title>
+	<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8"/>
+	<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+	<!--<link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+	<style type="text/css">
+		body, html {
+		 	height: 100%;
+		 	margin: 0;
+		 	/*font: 400 15px/1.8 "Lato", sans-serif;*/
+		 	font-family: Rock Salt, Raleway, Helvetica, sans-serif;
+		 	color: #777;
+		}
+		h1, p{
+			text-align: center;
+		}
+		.img1, .img2, .img3, .img4, .img5{
+		  	position: relative;
+		  	opacity: 0.65;
+		  	background-attachment: fixed;
+		  	background-position: center;
+		  	background-repeat: no-repeat;
+		  	background-size: cover;
+		}
+		.img1 {
+		  	background-image: url("images/sushi7.jpg");
+		  	min-height: 100%;
+		}
+
+		.img2 {
+		  	background-image: url("images/sushi1.jpg");
+		  	min-height: 500px;
+		}
+
+		.img3 {
+		  	background-image: url("images/sushi2.jpg");
+		  	min-height: 500px;
+		}
+		.img4 {
+		  	background-image: url("images/sushi6.jpg");
+		  	min-height: 500px;
+		}
+		.img5 {
+		  	background-image: url("images/sushi5.jpg");
+		  	min-height: 400px;
+		}
+		.caption {
+		  	position: absolute;
+		  	left: 0;
+		  	top: 50%;
+		  	width: 100%;
+		  	text-align: center;
+		  	color: #000;
+		}
+
+		.caption span.border {
+		  	background-color: rgba(17, 17, 17, 0.75);
+		  	color: #fff;
+		  	padding: 18px;
+		  	font-size: 50px;
+		  	letter-spacing: 10px;
+		}
+
+		h1 {
+		  	letter-spacing: 5px;
+		  	text-transform: uppercase;
+		  	font-size: 20px;
+		  	color: #111;
+		}
+		p, a{
+			font-family:"Lato", sans-serif;
+		}
+		.white{
+				
+			background-color: white;
+			text-align: center;
+			padding: 50px 80px;
+			text-align: justify;
+			font-color: black;
+		}
+		a{
+			color:#ddd;
+			text-align: center;
+			display: inline-block;
+			background-color: #282828;
+			color: white;
+			text-decoration: none;
+			padding: 10px;
+			width: 50%;
+		}
+		/* Turn off parallax scrolling for mobile devices */
+		@media only screen and (max-device-width: 1024px) {
+		  .img1, .img2, .img3 .img4 .img5{
+		    background-attachment: scroll;
+		  }
+		}
+	</style>
+</head>
+<body>
+	<div class="img1">
+		<div class="caption">
+			<span class="border">Makusa's Sushi Bistro</span>
+		</div>
+	</div>
+	<div class="white">
+		<h1>"Only the highest Quality Fish!"</h1>
+		<p>Lorem ipsum enim aliquip exercitation aute voluptate aliquip in pariatur amet cupidatat amet quis qui.</p>
+	</div>
+	<div class="img2">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px; color: black"><b>Dinner Menu</b></span>
+		</div>
+	</div>
+	<div style="position: relative;">
+		<div class="white">
+			<p>Our menus change on the daily depending on what is in stock. Click below to see today's menu!</p>
+			<p><a href="menu.html">Dinner Menu</a></p>
+		</div>
+	</div>
+	<div class="img3">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px; color: black"><b>Contacts</b></span>
+		</div>
+	</div>
+	<div style="position: relative;">
+		<div class="white">
+			<p>We are accesable through many types of methods. Click below to learn more!</p>
+			<p><a href="contacts.html">contacts</a></p>
+		</div>
+	</div>
+	<div class="img4">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px; color: black"><b>Locations</b></span>
+		</div>
+	</div>
+	<div style="position: relative;">
+		<div class="white">
+			<p>We have multiple resturants sprinkled across the Bay Area, each providing the consistent quality that can be expected at Makusa's Sushi Bistro. Click below to see which one is closest to you!</p>
+			<p><a href="locations.html">Locations</a></p>
+		</div>
+	</div>
+	<div class="img5">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px; color: black"><b>About Us</b></span>
+		</div>
+	</div>
+	<div style="position: relative;">
+		<div class="white">
+			<p style="font-size: 20px; padding-bottom: 10px;">Makusa's Sushi Bistro has been serving the Bay Area since 2010 and has been regarded as one of the premier sushi resturants on the peninsula side of the Bay Area. As an independently owned resturant, it is our great pleasure to serve you with the highest quality food and excellent service at the best prices.</p>
+			<footer><p>© Makusa's Sushi Bistro 2020</p></footer>
+		</div>
+	</div>
+</body>
+</html>

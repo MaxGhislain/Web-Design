@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: "Cabin", Arial, Helvetica,sans-serif, monospace, sans-serif;	
+}
+
+#padding{
+	padding-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li, a{
+  float: left;
+}
+li{
+	padding-top: 64px;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  color: #D4AF37;
+}
+a{
+	font-size: 30px;
+	padding: 15px;
+}
+
+.img1{
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.img1 {
+	background-image: url("images/image1.jpg");
+  	min-height: 400px;
+}
+
+.caption {
+  	position: absolute;
+  	left: 0;
+  	top: 20%;
+  	width: 100%;
+  	text-align: center;
+  	color: #000;
+  	margin-bottom: 100px;
+}
+
+.caption span.border {
+	width: 100%;
+  	background-color: rgba(17, 17, 17, 0.75);
+  	color: #fff;
+  	padding: 18px;
+  	font-size: 50px;
+  	letter-spacing: 10px;
+  	display: inline-block; 	
+}
+#header{
+	color: #c59d5f;
+	font-family: "Herr Von Muellerhoff", serif;
+	font-size: 100px;
+	padding: 0;
+	margin: 0;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+article{
+	padding-top: 15px;
+}

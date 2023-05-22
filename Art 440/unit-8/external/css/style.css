@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: "Roboto", sans-serif, arial;
+	background-color: #323639;
+}
+h1 {
+	color: #eeeeee;
+	font-size: 35px;	
+	text-align: center;
+}
+
+p {
+	line-height: 20px;
+	font-size: 15px;
+}
+
+a {
+	color: #323639;
+	font-size: 15px;
+}
+li {
+	list-style: square;	
+}
+.center{
+	width: 80%;
+	background-color: #eee;
+	margin: auto;
+	padding: 10px;
+	border: 5px solid #004a7d;
+  	border-radius: 5px;
+}
